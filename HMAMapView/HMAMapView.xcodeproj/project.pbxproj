@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04B2F92021E3B0FD00943A30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B2F91F21E3B0FD00943A30 /* AppDelegate.m */; };
+		04B2F92321E3B0FD00943A30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B2F92221E3B0FD00943A30 /* ViewController.m */; };
+		04B2F92621E3B0FD00943A30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B2F92421E3B0FD00943A30 /* Main.storyboard */; };
+		04B2F92821E3B0FE00943A30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B2F92721E3B0FE00943A30 /* Assets.xcassets */; };
+		04B2F92B21E3B0FE00943A30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B2F92921E3B0FE00943A30 /* LaunchScreen.storyboard */; };
+		04B2F92E21E3B0FE00943A30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B2F92D21E3B0FE00943A30 /* main.m */; };
+		04B2F93821E3B0FE00943A30 /* HMAMapViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B2F93721E3B0FE00943A30 /* HMAMapViewTests.m */; };
+		04B2F94321E3B0FE00943A30 /* HMAMapViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B2F94221E3B0FE00943A30 /* HMAMapViewUITests.m */; };
+		19D83ADE26838DCA5DB2D652 /* libPods-HMAMapView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD0587B7FFF3D9D2F7F35893 /* libPods-HMAMapView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04B2F93421E3B0FE00943A30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B2F91321E3B0FD00943A30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B2F91A21E3B0FD00943A30;
+			remoteInfo = HMAMapView;
+		};
+		04B2F93F21E3B0FE00943A30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04B2F91321E3B0FD00943A30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04B2F91A21E3B0FD00943A30;
+			remoteInfo = HMAMapView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04B2F91B21E3B0FD00943A30 /* HMAMapView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMAMapView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B2F91E21E3B0FD00943A30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04B2F91F21E3B0FD00943A30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04B2F92121E3B0FD00943A30 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04B2F92221E3B0FD00943A30 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04B2F92521E3B0FD00943A30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04B2F92721E3B0FE00943A30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04B2F92A21E3B0FE00943A30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04B2F92C21E3B0FE00943A30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B2F92D21E3B0FE00943A30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04B2F93321E3B0FE00943A30 /* HMAMapViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMAMapViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B2F93721E3B0FE00943A30 /* HMAMapViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMAMapViewTests.m; sourceTree = "<group>"; };
+		04B2F93921E3B0FE00943A30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B2F93E21E3B0FE00943A30 /* HMAMapViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HMAMapViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B2F94221E3B0FE00943A30 /* HMAMapViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMAMapViewUITests.m; sourceTree = "<group>"; };
+		04B2F94421E3B0FE00943A30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D30ED14CE89E2CA7AC1720B /* libPods-HMAMapViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HMAMapViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		83761FEFA4660C502601B50C /* Pods-HMAMapView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMAMapView.release.xcconfig"; path = "Pods/Target Support Files/Pods-HMAMapView/Pods-HMAMapView.release.xcconfig"; sourceTree = "<group>"; };
+		A93D77BC782C2EAAC86B0BA2 /* libPods-HMAMapViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HMAMapViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF1787212336633F78EA0CE9 /* Pods-HMAMapView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HMAMapView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HMAMapView/Pods-HMAMapView.debug.xcconfig"; sourceTree = "<group>"; };
+		CD0587B7FFF3D9D2F7F35893 /* libPods-HMAMapView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HMAMapView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04B2F91821E3B0FD00943A30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19D83ADE26838DCA5DB2D652 /* libPods-HMAMapView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B2F93021E3B0FE00943A30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B2F93B21E3B0FE00943A30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B2F91221E3B0FD00943A30 = {
+			isa = PBXGroup;
+			children = (
+				04B2F91D21E3B0FD00943A30 /* HMAMapView */,
+				04B2F93621E3B0FE00943A30 /* HMAMapViewTests */,
+				04B2F94121E3B0FE00943A30 /* HMAMapViewUITests */,
+				04B2F91C21E3B0FD00943A30 /* Products */,
+				1CE49CA619D937D307A8E811 /* Pods */,
+				A2BE140D59DC32F92544FB7E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04B2F91C21E3B0FD00943A30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04B2F91B21E3B0FD00943A30 /* HMAMapView.app */,
+				04B2F93321E3B0FE00943A30 /* HMAMapViewTests.xctest */,
+				04B2F93E21E3B0FE00943A30 /* HMAMapViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04B2F91D21E3B0FD00943A30 /* HMAMapView */ = {
+			isa = PBXGroup;
+			children = (
+				04B2F91E21E3B0FD00943A30 /* AppDelegate.h */,
+				04B2F91F21E3B0FD00943A30 /* AppDelegate.m */,
+				04B2F92121E3B0FD00943A30 /* ViewController.h */,
+				04B2F92221E3B0FD00943A30 /* ViewController.m */,
+				04B2F92421E3B0FD00943A30 /* Main.storyboard */,
+				04B2F92721E3B0FE00943A30 /* Assets.xcassets */,
+				04B2F92921E3B0FE00943A30 /* LaunchScreen.storyboard */,
+				04B2F92C21E3B0FE00943A30 /* Info.plist */,
+				04B2F92D21E3B0FE00943A30 /* main.m */,
+			);
+			path = HMAMapView;
+			sourceTree = "<group>";
+		};
+		04B2F93621E3B0FE00943A30 /* HMAMapViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				04B2F93721E3B0FE00943A30 /* HMAMapViewTests.m */,
+				04B2F93921E3B0FE00943A30 /* Info.plist */,
+			);
+			path = HMAMapViewTests;
+			sourceTree = "<group>";
+		};
+		04B2F94121E3B0FE00943A30 /* HMAMapViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04B2F94221E3B0FE00943A30 /* HMAMapViewUITests.m */,
+				04B2F94421E3B0FE00943A30 /* Info.plist */,
+			);
+			path = HMAMapViewUITests;
+			sourceTree = "<group>";
+		};
+		1CE49CA619D937D307A8E811 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF1787212336633F78EA0CE9 /* Pods-HMAMapView.debug.xcconfig */,
+				83761FEFA4660C502601B50C /* Pods-HMAMapView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A2BE140D59DC32F92544FB7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD0587B7FFF3D9D2F7F35893 /* libPods-HMAMapView.a */,
+				A93D77BC782C2EAAC86B0BA2 /* libPods-HMAMapViewTests.a */,
+				6D30ED14CE89E2CA7AC1720B /* libPods-HMAMapViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04B2F91A21E3B0FD00943A30 /* HMAMapView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B2F94721E3B0FE00943A30 /* Build configuration list for PBXNativeTarget "HMAMapView" */;
+			buildPhases = (
+				DB9FC4D20BBC6B21390D0F70 /* [CP] Check Pods Manifest.lock */,
+				04B2F91721E3B0FD00943A30 /* Sources */,
+				04B2F91821E3B0FD00943A30 /* Frameworks */,
+				04B2F91921E3B0FD00943A30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HMAMapView;
+			productName = HMAMapView;
+			productReference = 04B2F91B21E3B0FD00943A30 /* HMAMapView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04B2F93221E3B0FE00943A30 /* HMAMapViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B2F94A21E3B0FE00943A30 /* Build configuration list for PBXNativeTarget "HMAMapViewTests" */;
+			buildPhases = (
+				04B2F92F21E3B0FE00943A30 /* Sources */,
+				04B2F93021E3B0FE00943A30 /* Frameworks */,
+				04B2F93121E3B0FE00943A30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B2F93521E3B0FE00943A30 /* PBXTargetDependency */,
+			);
+			name = HMAMapViewTests;
+			productName = HMAMapViewTests;
+			productReference = 04B2F93321E3B0FE00943A30 /* HMAMapViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04B2F93D21E3B0FE00943A30 /* HMAMapViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B2F94D21E3B0FE00943A30 /* Build configuration list for PBXNativeTarget "HMAMapViewUITests" */;
+			buildPhases = (
+				04B2F93A21E3B0FE00943A30 /* Sources */,
+				04B2F93B21E3B0FE00943A30 /* Frameworks */,
+				04B2F93C21E3B0FE00943A30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04B2F94021E3B0FE00943A30 /* PBXTargetDependency */,
+			);
+			name = HMAMapViewUITests;
+			productName = HMAMapViewUITests;
+			productReference = 04B2F93E21E3B0FE00943A30 /* HMAMapViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04B2F91321E3B0FD00943A30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = lhm;
+				TargetAttributes = {
+					04B2F91A21E3B0FD00943A30 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					04B2F93221E3B0FE00943A30 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 04B2F91A21E3B0FD00943A30;
+					};
+					04B2F93D21E3B0FE00943A30 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 04B2F91A21E3B0FD00943A30;
+					};
+				};
+			};
+			buildConfigurationList = 04B2F91621E3B0FD00943A30 /* Build configuration list for PBXProject "HMAMapView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04B2F91221E3B0FD00943A30;
+			productRefGroup = 04B2F91C21E3B0FD00943A30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04B2F91A21E3B0FD00943A30 /* HMAMapView */,
+				04B2F93221E3B0FE00943A30 /* HMAMapViewTests */,
+				04B2F93D21E3B0FE00943A30 /* HMAMapViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04B2F91921E3B0FD00943A30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B2F92B21E3B0FE00943A30 /* LaunchScreen.storyboard in Resources */,
+				04B2F92821E3B0FE00943A30 /* Assets.xcassets in Resources */,
+				04B2F92621E3B0FD00943A30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B2F93121E3B0FE00943A30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B2F93C21E3B0FE00943A30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DB9FC4D20BBC6B21390D0F70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HMAMapView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04B2F91721E3B0FD00943A30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B2F92321E3B0FD00943A30 /* ViewController.m in Sources */,
+				04B2F92E21E3B0FE00943A30 /* main.m in Sources */,
+				04B2F92021E3B0FD00943A30 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B2F92F21E3B0FE00943A30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B2F93821E3B0FE00943A30 /* HMAMapViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04B2F93A21E3B0FE00943A30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B2F94321E3B0FE00943A30 /* HMAMapViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04B2F93521E3B0FE00943A30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B2F91A21E3B0FD00943A30 /* HMAMapView */;
+			targetProxy = 04B2F93421E3B0FE00943A30 /* PBXContainerItemProxy */;
+		};
+		04B2F94021E3B0FE00943A30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04B2F91A21E3B0FD00943A30 /* HMAMapView */;
+			targetProxy = 04B2F93F21E3B0FE00943A30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04B2F92421E3B0FD00943A30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B2F92521E3B0FD00943A30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04B2F92921E3B0FE00943A30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B2F92A21E3B0FE00943A30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04B2F94521E3B0FE00943A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04B2F94621E3B0FE00943A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04B2F94821E3B0FE00943A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF1787212336633F78EA0CE9 /* Pods-HMAMapView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HMAMapView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hm.HMAMapView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04B2F94921E3B0FE00943A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83761FEFA4660C502601B50C /* Pods-HMAMapView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HMAMapView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hm.HMAMapView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04B2F94B21E3B0FE00943A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HMAMapViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hm.HMAMapViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HMAMapView.app/HMAMapView";
+			};
+			name = Debug;
+		};
+		04B2F94C21E3B0FE00943A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HMAMapViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hm.HMAMapViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HMAMapView.app/HMAMapView";
+			};
+			name = Release;
+		};
+		04B2F94E21E3B0FE00943A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HMAMapViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hm.HMAMapViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HMAMapView;
+			};
+			name = Debug;
+		};
+		04B2F94F21E3B0FE00943A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HMAMapViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hm.HMAMapViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HMAMapView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04B2F91621E3B0FD00943A30 /* Build configuration list for PBXProject "HMAMapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B2F94521E3B0FE00943A30 /* Debug */,
+				04B2F94621E3B0FE00943A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B2F94721E3B0FE00943A30 /* Build configuration list for PBXNativeTarget "HMAMapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B2F94821E3B0FE00943A30 /* Debug */,
+				04B2F94921E3B0FE00943A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B2F94A21E3B0FE00943A30 /* Build configuration list for PBXNativeTarget "HMAMapViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B2F94B21E3B0FE00943A30 /* Debug */,
+				04B2F94C21E3B0FE00943A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B2F94D21E3B0FE00943A30 /* Build configuration list for PBXNativeTarget "HMAMapViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B2F94E21E3B0FE00943A30 /* Debug */,
+				04B2F94F21E3B0FE00943A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04B2F91321E3B0FD00943A30 /* Project object */;
+}
