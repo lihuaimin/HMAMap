@@ -1,20 +1,25 @@
 PODS:
+  - AMap3DMap-NO-IDFA (5.4.0):
+    - AMapFoundation-NO-IDFA (~> 1.3)
   - AMapFoundation-NO-IDFA (1.4.2)
   - Masonry (1.1.0)
 
 DEPENDENCIES:
+  - AMap3DMap-NO-IDFA
   - AMapFoundation-NO-IDFA
   - Masonry
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - AMap3DMap-NO-IDFA
     - AMapFoundation-NO-IDFA
     - Masonry
 
 SPEC CHECKSUMS:
+  AMap3DMap-NO-IDFA: 7a5d581f628041c75b1e6474d948796ec00c990c
   AMapFoundation-NO-IDFA: 3b9ce87abc6a37c718cc320687469d0b74d5c953
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: eb84fb3108a1e769aa3ad6ba812939dfd2b3173e
+PODFILE CHECKSUM: 82ae8baefe3b1dac338adb680f74128b51588aae
 
 COCOAPODS: 1.5.3

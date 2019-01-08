@@ -2,7 +2,7 @@
  platform :ios, '9.0'
 
 target 'HMAMapView' do
-    #pod 'AMap3DMap-NO-IDFA'
+    pod 'AMap3DMap-NO-IDFA'
     pod 'AMapFoundation-NO-IDFA'
 
     pod 'Masonry'
